@@ -5,7 +5,6 @@ import { FiLogIn } from 'react-icons/fi';
 
 
 import './styles.css';
-const imagePath: string = '/frtend/src/assets/images/ccp.png';
 
 const Home: React.FC = () => {
   return (
@@ -25,7 +24,7 @@ const Home: React.FC = () => {
           </Link>
         </div>
         <div id="contentr">
-          <img src={imagePath} alt="CCP" />
+          <img src={'https://i.imgur.com/khH6O0q.png'} alt="CCP" />
         </div>
       </div>
       <div id="footer">
